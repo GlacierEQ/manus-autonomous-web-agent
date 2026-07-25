@@ -1,0 +1,8 @@
+{
+  "system_id": "manus-autonomous-web-agent",
+  "shadow_mode": "ACTIVE",
+  "mastermind_synced": true,
+  "telemetry": {
+    "status": "MANUS_GOAL_ACHIEVED"
+  }
+}
