@@ -1,0 +1,16 @@
+{
+  "repo": "manus-autonomous-web-agent",
+  "algorithm": "sha256",
+  "file_count": 9,
+  "hashes": {
+    "README.md": "7af9fd94d41137be0d55836ce0c8b2226dd7143cab4d2febaa3a46821521d23b",
+    "AKOS.md": "dece385436a7f6ea83d793a4cdf09b9486efa1ee286b72db01d06d3c3ff5c583",
+    "AGENTS.md": "ac4ba4a5d920043d31d07ff7884aaa5e290042a171f1612b82735dea7c3fb7bf",
+    "HELIX_STRAND.md": "4a3c0e9b59213a551f7444173097867b9f59aeb3691398f5686b0baa57699653",
+    "mastermind_sidecar.py": "7df46729292f74be4760197bdb2e65a02c7981f9b888e9c79474839ba4ff37ae",
+    "SECURITY_AND_FLEET_OPS.md": "26141c0f07d95847d679de423ddb7bdee6f3e319d204383c89a58d6d3bb610c7",
+    "HELIX.md": "daa93e666ca71e11b08393e8233181b6d603c7b8a9a3f18b90476bd40e76b201",
+    "tests/test_manus.py": "8afde19cae202fd5c9b7ac4bc09d388ffea08f894d164a5857054f491d815863",
+    "src/manus_autonomous_web_agent.py": "d4aad833d1f63af6bff64111d97e4d35a9dc74d401562a95cbceaea600d42b0f"
+  }
+}
