@@ -1,0 +1,33 @@
+{
+  "schema": "glaciereq.operability-receipt.v1",
+  "repository": "GlacierEQ/manus-autonomous-web-agent",
+  "at": "2026-08-10T04:12Z",
+  "source_sha": "906a66915b00f98c11fa25af62bf53ccf77c9fc75ca728eb6aa91571e27cef50",
+  "entry": "scripts/operate.py",
+  "primary_output": {
+    "module": "manus_autonomous_web_agent",
+    "ok": true,
+    "repository": "GlacierEQ/manus-autonomous-web-agent",
+    "smoke": {
+      "args": [
+        "'sample_goal_prompt'",
+        "'sample_start_url'"
+      ],
+      "content_checked": true,
+      "invoked": true,
+      "kind": "class",
+      "method": "execute_web_goal",
+      "module_local": true,
+      "name": "ManusAutonomousWebAgent",
+      "result": {
+        "actions_executed": 3,
+        "goal_prompt": "sample_goal_prompt",
+        "planning_latency_ms": 0.0039,
+        "start_url": "sample_start_url",
+        "status": "MANUS_GOAL_ACHIEVED"
+      }
+    }
+  },
+  "dual_run_ok": true,
+  "result": "PASS"
+}

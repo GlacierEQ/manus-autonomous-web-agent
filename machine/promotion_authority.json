@@ -1,0 +1,11 @@
+{
+  "schema": "glaciereq.promotion-authority-grant.v1",
+  "repository": "GlacierEQ/manus-autonomous-web-agent",
+  "source_sha": "906a66915b00f98c11fa25af62bf53ccf77c9fc75ca728eb6aa91571e27cef50",
+  "proof_receipt_digest": "e2ef9d874d38723a76eb1ff46e105f94c6459f7cc49987880bfd8087b30405ec",
+  "not_after": 1788927149.234226,
+  "mac": "1562c6a3e1dcc336eb5c2a85556363e8b81cedf229e3c47bb0ac99455e75d7d7",
+  "issuer": "local_operator_promotion_authority",
+  "verified": true,
+  "secret_ref": "src/promotion_authority.py::LOCAL_OPERATOR_SECRET"
+}

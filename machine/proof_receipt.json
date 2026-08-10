@@ -1,0 +1,31 @@
+{
+  "schema": "glaciereq.proof-receipt.v1",
+  "repository": "GlacierEQ/manus-autonomous-web-agent",
+  "source_sha": "906a66915b00f98c11fa25af62bf53ccf77c9fc75ca728eb6aa91571e27cef50",
+  "proof_id": "elite-manus-autonomous-web-agent-1786335149",
+  "environment": {
+    "python": "/Users/kcbflux/job-app/excellence/.venv-elite/bin/python",
+    "PYTHONPATH": "/Users/kcbflux/job-app/repos/manus-autonomous-web-agent:/Users/kcbflux/job-app/repos/manus-autonomous-web-agent/src",
+    "entry": "unittest"
+  },
+  "tests": [
+    "/Users/kcbflux/job-app/excellence/.venv-elite/bin/python -m unittest discover -s tests -v (x2)"
+  ],
+  "adversarial_tests": [
+    "tests/test_adversarial.py"
+  ],
+  "runtime": {
+    "operate": "scripts/operate.py (x2)",
+    "dual_run_ok": true,
+    "proof_dual_run_ok": true
+  },
+  "result": "PASS",
+  "limitations": [
+    "not production deployed",
+    "reference implementation only"
+  ],
+  "timestamp": "2026-08-10T04:12Z",
+  "artifact_hashes": {
+    "operability_receipt": "12c12cfd9fa03dd4f54cd89f52e7ae093e667e43799204c5fa27d0be0e5a6b5e"
+  }
+}

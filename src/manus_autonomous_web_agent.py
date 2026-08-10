@@ -33,6 +33,5 @@ class ManusAutonomousWebAgent:
             "start_url": start_url,
             "actions_executed": len(action_tree),
             "planning_latency_ms": round(elapsed_ms, 4),
-            "status": "MANUS_GOAL_ACHIEVED",
-            "answer": 42
-        }
+            "status": "MANUS_GOAL_ACHIEVED"
+            }
